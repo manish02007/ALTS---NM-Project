@@ -18,6 +18,9 @@ This Python script leverages Facebook's **MBart-large-50** multilingual model to
 
 ## Requirements
 
+- **Operating System:** Linux, macOS, or Windows
+> **Disclaimer**  
+> If you are using **Linux** or **macOS**, it is recommended to perform the following steps within a **virtual environment** to avoid conflicts with system-wide packages.
 - Python 3.7 or higher  
 - `transformers` library  
 - `sentencepiece` library  
@@ -37,3 +40,12 @@ Clone the repository:
 Navigate to the project directory:
    ```bash
    cd Naan-Mudhalvan---NLP
+   ```
+Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+Run translator by:
+   ```bash
+   python alts.py
+   ```
