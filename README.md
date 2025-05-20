@@ -45,6 +45,11 @@ Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
+> **NOTE**  
+> *To Use GPU Acceleration (NVIDIA CUDA):*
+> If you have an NVIDIA GPU and want to use CUDA for acceleration, install the appropriate version of PyTorch manually.
+> Visit the official PyTorch installation page to get the correct command for your system: https://pytorch.org/get-started/locally
+
 Run translator by:
    ```bash
    python alts.py
